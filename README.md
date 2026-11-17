@@ -1,6 +1,9 @@
 # SPITE showcases
 
-Four source-built showcases share one SPITE SDK project: Warzone, CityShowcase, FormationsShowcase, and UiStorm. Each has its own module and scene. Install SPITE SDK 0.2.7, a Vulkan-capable GPU and driver, Python, CMake, Ninja and a compatible C++ toolchain; `spite doctor` checks the setup.
+Some of these benchmarks show that SPITE performs 20x faster than some of the other engines on the market.
+Check this yourself.
+
+Four source-built showcases share one SPITE SDK project.
 
 | [Warzone](src/Warzone/) | [CityShowcase](src/CityShowcase/) |
 | --- | --- |
