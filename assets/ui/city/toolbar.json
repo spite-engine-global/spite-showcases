@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "root": {
+    "id": "city.toolbar",
+    "kind": "panel",
+    "class": "city.bar",
+    "size": [
+      0,
+      46
+    ],
+    "anchor": [
+      0.5,
+      1
+    ],
+    "pivot": [
+      0.5,
+      1
+    ],
+    "offset": [
+      0,
+      -10
+    ],
+    "fit": {
+      "width": true,
+      "height": false
+    },
+    "layout": {
+      "direction": "row",
+      "align": "center",
+      "gap": "$space.xs",
+      "padding": [
+        10,
+        6,
+        10,
+        6
+      ]
+    },
+    "children": [
+      {
+        "id": "city.tool.inspect",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Inspect",
+        "size": [
+          70,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.street",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Street",
+        "size": [
+          62,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.avenue",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Avenue",
+        "size": [
+          62,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.boulevard",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Blvd",
+        "size": [
+          50,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.highway",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Highway",
+        "size": [
+          70,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.removeRoad",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Remove road",
+        "size": [
+          100,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.resLow",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Res",
+        "size": [
+          40,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.resHigh",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Res+",
+        "size": [
+          48,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.comLow",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Com",
+        "size": [
+          40,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.comHigh",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Com+",
+        "size": [
+          48,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.industrial",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Ind",
+        "size": [
+          40,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.special",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Spec",
+        "size": [
+          48,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.bulldoze",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Bulldoze",
+        "size": [
+          80,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.generate",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Gen",
+        "size": [
+          43.0,
+          30.0
+        ]
+      },
+      {
+        "id": "city.tool.save",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Save",
+        "size": [
+          50,
+          30
+        ]
+      },
+      {
+        "id": "city.tool.load",
+        "kind": "button",
+        "class": "city.button",
+        "text": "Load",
+        "size": [
+          50,
+          30
+        ]
+      }
+    ]
+  }
+}

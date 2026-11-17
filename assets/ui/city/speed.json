@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "root": {
+    "id": "city.bar.speed",
+    "kind": "panel",
+    "size": [
+      0,
+      32
+    ],
+    "pivot": [
+      0,
+      0
+    ],
+    "layout": {
+      "direction": "row",
+      "align": "center",
+      "gap": "$space.xs"
+    },
+    "children": [
+      {
+        "id": "city.bar.speed0",
+        "kind": "button",
+        "class": "city.button",
+        "size": [
+          40,
+          30
+        ],
+        "pivot": [
+          0,
+          0
+        ],
+        "text": "||",
+        "item": {
+          "shrink": 0
+        }
+      },
+      {
+        "id": "city.bar.speed1",
+        "kind": "button",
+        "class": "city.button",
+        "size": [
+          40,
+          30
+        ],
+        "pivot": [
+          0,
+          0
+        ],
+        "text": "1x",
+        "item": {
+          "shrink": 0
+        }
+      },
+      {
+        "id": "city.bar.speed2",
+        "kind": "button",
+        "class": "city.button",
+        "size": [
+          40,
+          30
+        ],
+        "pivot": [
+          0,
+          0
+        ],
+        "text": "2x",
+        "item": {
+          "shrink": 0
+        }
+      },
+      {
+        "id": "city.bar.speed4",
+        "kind": "button",
+        "class": "city.button",
+        "size": [
+          40,
+          30
+        ],
+        "pivot": [
+          0,
+          0
+        ],
+        "text": "4x",
+        "item": {
+          "shrink": 0
+        }
+      },
+      {
+        "id": "city.bar.speed8",
+        "kind": "button",
+        "class": "city.button",
+        "size": [
+          40,
+          30
+        ],
+        "pivot": [
+          0,
+          0
+        ],
+        "text": "8x",
+        "item": {
+          "shrink": 0
+        }
+      }
+    ],
+    "fit": {
+      "width": true,
+      "height": false
+    },
+    "item": {
+      "shrink": 0
+    }
+  }
+}

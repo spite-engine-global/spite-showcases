@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "version": "0.2.7",
+  "sdkBuildId": "32676348164eda2d3732a45cebe236b637b6a063b7ab1746e347ba4b7f1ca932",
+  "target": "windows-x86_64",
+  "configuration": "Release",
+  "apiStamp": "0x536a842b60ed1a99",
+  "toolsetStamp": "msvc1951-mt-idl0-debug0",
+  "gpuContractId": "2bda8e381ccfd9ca3e47fff4dde6569ee803538809948629634c695cb49d93fd",
+  "sourceIdentity": "46bb7b93c9dbac878079711793481486010464cf1c090e018ee6954d049ad919"
+}

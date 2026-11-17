@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "root": {
+    "id": "city.sandbox",
+    "kind": "panel",
+    "class": "city.bar",
+    "size": [0, 46],
+    "anchor": [0.5, 1],
+    "pivot": [0.5, 1],
+    "offset": [0, -60],
+    "fit": {"width": true, "height": false},
+    "layout": {"direction": "row", "align": "center", "gap": "$space.xs", "padding": ["$space.md", "$space.sm", "$space.md", "$space.sm"]},
+    "children": [
+      {"id": "city.tool.droneHub", "kind": "button", "class": "city.button", "text": "Drone hub", "size": [90, 30]},
+      {"id": "city.tool.truckDepot", "kind": "button", "class": "city.button", "text": "Truck depot", "size": [100, 30]},
+      {"id": "city.tool.warehouse", "kind": "button", "class": "city.button", "text": "Warehouse", "size": [95, 30]},
+      {"id": "city.tool.factory", "kind": "button", "class": "city.button", "text": "Factory", "size": [70, 30]}
+    ]
+  }
+}

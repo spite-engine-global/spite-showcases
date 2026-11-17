@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "root": {
+    "id": "city.bar",
+    "kind": "panel",
+    "class": "city.bar",
+    "size": [
+      1,
+      46
+    ],
+    "pivot": [
+      0,
+      0
+    ],
+    "layout": {
+      "direction": "row",
+      "align": "center",
+      "gap": "$space.lg",
+      "padding": [
+        12,
+        6,
+        12,
+        6
+      ],
+      "wrap": true
+    },
+    "children": [
+      {
+        "id": "city.bar.clock",
+        "kind": "label",
+        "class": "city.clock",
+        "size": [
+          0,
+          30
+        ],
+        "fit": {
+          "width": true,
+          "height": true
+        },
+        "item": {
+          "shrink": 1
+        }
+      },
+      {
+        "id": "city.bar.speedSlot",
+        "kind": "panel",
+        "size": [
+          0,
+          32
+        ],
+        "fit": {
+          "width": true,
+          "height": false
+        },
+        "layout": {
+          "direction": "row",
+          "align": "center"
+        }
+      },
+      {
+        "id": "city.bar.counts",
+        "kind": "label",
+        "class": "city.text",
+        "size": [
+          0,
+          24
+        ],
+        "fit": {
+          "width": true,
+          "height": true
+        },
+        "item": {
+          "shrink": 1
+        }
+      },
+      {
+        "id": "city.bar.logistics",
+        "kind": "label",
+        "class": "city.text",
+        "size": [
+          0,
+          24
+        ],
+        "fit": {
+          "width": true,
+          "height": true
+        },
+        "item": {
+          "shrink": 1
+        }
+      },
+      {
+        "id": "city.bar.traffic",
+        "kind": "label",
+        "class": "city.text",
+        "size": [
+          0,
+          24
+        ],
+        "fit": {
+          "width": true,
+          "height": true
+        },
+        "item": {
+          "shrink": 1
+        }
+      }
+    ],
+    "fit": {
+      "width": false,
+      "height": true
+    }
+  }
+}

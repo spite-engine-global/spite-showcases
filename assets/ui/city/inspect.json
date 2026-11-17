@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "root": {
+    "id": "city.inspect",
+    "kind": "panel",
+    "class": "city.panel",
+    "size": [
+      330,
+      0
+    ],
+    "anchor": [
+      1,
+      0
+    ],
+    "pivot": [
+      1,
+      0
+    ],
+    "offset": [
+      -12,
+      56
+    ],
+    "fit": {
+      "width": false,
+      "height": true
+    },
+    "layout": {
+      "direction": "column",
+      "align": "center",
+      "gap": "$space.xxs",
+      "padding": [
+        12,
+        10,
+        12,
+        10
+      ]
+    },
+    "children": [
+      {
+        "id": "city.inspect.title",
+        "kind": "label",
+        "class": "city.inspect.title",
+        "size": [
+          306,
+          24
+        ]
+      },
+      {
+        "id": "city.inspect.line0",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line1",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line2",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line3",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line4",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line5",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line6",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line7",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line8",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line9",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line10",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line11",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line12",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line13",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line14",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line15",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line16",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line17",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line18",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line19",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line20",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line21",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line22",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.line23",
+        "kind": "label",
+        "class": "city.inspect.line",
+        "size": [
+          306,
+          18
+        ]
+      },
+      {
+        "id": "city.inspect.actions",
+        "kind": "panel",
+        "size": [
+          306,
+          34
+        ],
+        "layout": {
+          "direction": "row",
+          "align": "center",
+          "gap": 6,
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ]
+        },
+        "children": [
+          {
+            "id": "city.inspect.follow",
+            "kind": "button",
+            "class": "city.button",
+            "text": "Follow",
+            "size": [
+              186.0,
+              30.0
+            ]
+          },
+          {
+            "id": "city.inspect.close",
+            "kind": "button",
+            "class": "city.button",
+            "text": "Close",
+            "size": [
+              90,
+              28
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

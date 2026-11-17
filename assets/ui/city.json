@@ -1,0 +1,44 @@
+{
+  "classes": {
+    "city.bar": {
+      "background": { "color": "$bar" },
+      "shape": { "cornerRadius": "$radius.square" },
+      "border": { "width": "$border.width.thin", "color": "$border" }
+    },
+    "city.panel": {
+      "background": { "color": "$panel" },
+      "shape": { "cornerRadius": "$radius.square" },
+      "border": { "width": "$border.width.thin", "color": "$border" },
+      "shadow": { "color": "$ground", "offset": "$shadow.hard" }
+    },
+    "city.button": {
+      "shape": { "cornerRadius": "$radius.sm" },
+      "background": { "color": "$button" },
+      "border": { "width": "$border.width.thin", "color": "$border-strong" },
+      "text": { "font": "$font.body", "size": "$text.size.md", "align": "center", "color": "$text" },
+      "states": {
+        "focused": { "outline": { "width": "$border.width.thick", "color": "$ring", "offset": 1 } },
+        "hover": { "background": { "color": "$hover" }, "border": { "color": "$border-strong" } },
+        "pressed": { "background": { "color": "$buttonPressed" } },
+        "disabled": { "opacity": 0.5 }
+      }
+    },
+    "city.button.active": {
+      "shape": { "cornerRadius": "$radius.sm" },
+      "background": { "color": "$buttonSelected" },
+      "border": { "width": "$border.width.thin", "color": "$separator" },
+      "shadow": { "color": "$accent", "offset": "$edge.tab", "inset": true },
+      "text": { "font": "$font.body", "size": "$text.size.md", "align": "center", "color": "$text" },
+      "states": {
+        "hover": { "background": { "color": "$buttonSelected" } },
+        "pressed": { "background": { "color": "$buttonPressed" } },
+        "focused": { "outline": { "width": "$border.width.thick", "color": "$text", "offset": -4 } },
+        "disabled": { "opacity": 0.5 }
+      }
+    },
+    "city.clock": { "text": { "font": "$font.value", "size": "$text.size.lg", "color": "$text" } },
+    "city.text": { "text": { "font": "$font.value", "size": "$text.size.sm", "color": "$text-muted", "wrap": "word", "overflow": "clip" } },
+    "city.inspect.title": { "text": { "font": "$font.title", "size": "$text.size.lg", "color": "$text" } },
+    "city.inspect.line": { "text": { "font": "$font.value", "size": "$text.size.sm", "color": "$text-muted" } }
+  }
+}

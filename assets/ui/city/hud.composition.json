@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "name": "City HUD",
+  "screen": [
+    1152,
+    648
+  ],
+  "baseStyle": "assets/ui/engine.json",
+  "theme": "assets/ui/themes/forge-dark.json",
+  "style": "assets/ui/city.json",
+  "views": [
+    {
+      "name": "city.bar",
+      "path": "assets/ui/city/bar.json",
+      "fillWidth": true,
+      "required": [
+        "city.bar",
+        "city.bar.clock",
+        "city.bar.counts",
+        "city.bar.logistics",
+        "city.bar.traffic"
+      ]
+    },
+    {
+      "name": "city.speed",
+      "path": "assets/ui/city/speed.json",
+      "parent": {
+        "view": "city.bar",
+        "slot": "city.bar.speedSlot"
+      }
+    },
+    {
+      "name": "city.inspect",
+      "path": "assets/ui/city/inspect.json",
+      "previewVisible": false,
+      "required": [
+        "city.inspect",
+        "city.inspect.title",
+        "city.inspect.line0",
+        "city.inspect.line1",
+        "city.inspect.line2",
+        "city.inspect.line3",
+        "city.inspect.line4",
+        "city.inspect.line5",
+        "city.inspect.line6",
+        "city.inspect.line7",
+        "city.inspect.line8",
+        "city.inspect.line9",
+        "city.inspect.line10",
+        "city.inspect.line11",
+        "city.inspect.line12",
+        "city.inspect.line13",
+        "city.inspect.line14",
+        "city.inspect.line15",
+        "city.inspect.line16",
+        "city.inspect.line17",
+        "city.inspect.line18",
+        "city.inspect.line19",
+        "city.inspect.line20",
+        "city.inspect.line21",
+        "city.inspect.line22",
+        "city.inspect.line23"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "view": "city.speed",
+      "id": "city.bar.speed0",
+      "event": "click",
+      "command": "citySpeed",
+      "args": {
+        "speed": 0
+      }
+    },
+    {
+      "view": "city.speed",
+      "id": "city.bar.speed1",
+      "event": "click",
+      "command": "citySpeed",
+      "args": {
+        "speed": 1
+      }
+    },
+    {
+      "view": "city.speed",
+      "id": "city.bar.speed2",
+      "event": "click",
+      "command": "citySpeed",
+      "args": {
+        "speed": 2
+      }
+    },
+    {
+      "view": "city.speed",
+      "id": "city.bar.speed4",
+      "event": "click",
+      "command": "citySpeed",
+      "args": {
+        "speed": 4
+      }
+    },
+    {
+      "view": "city.speed",
+      "id": "city.bar.speed8",
+      "event": "click",
+      "command": "citySpeed",
+      "args": {
+        "speed": 8
+      }
+    },
+    {
+      "view": "city.inspect",
+      "id": "city.inspect.follow",
+      "event": "click",
+      "command": "cityCameraSet",
+      "args": {}
+    },
+    {
+      "view": "city.inspect",
+      "id": "city.inspect.close",
+      "event": "click",
+      "command": "citySelect",
+      "args": {}
+    }
+  ]
+}

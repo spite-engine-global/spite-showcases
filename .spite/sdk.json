@@ -1,0 +1,8 @@
+{
+  "format": 2,
+  "version": "0.2.7",
+  "target": "windows-x86_64",
+  "sourceHead": "9fea937e36cf6069fb5acfb3b3fe46ab262a2717",
+  "apiStamp": "0x536a842b60ed1a99",
+  "toolsetStamp": "msvc1951-mt-idl0-debug0"
+}
